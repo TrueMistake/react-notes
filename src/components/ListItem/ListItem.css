@@ -1,0 +1,18 @@
+.listItem{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #1976d2;
+}
+.listItem p{
+  font-size: 20px;
+  line-height: 18px;
+  color: #1976d2;
+}
+.listItem:hover{
+  background: #eee;
+}
+.listItem.active{
+  background: #eee;
+}
